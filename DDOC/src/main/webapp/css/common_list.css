@@ -1,0 +1,150 @@
+/* @font-face { */
+/*     font-family: Fixedsys3; */
+/*     src: url("/ddoc/font/FSEX300.ttf") format("truetype"); */
+/*     font-style: normal; */
+/*     font-weight: normal; */
+/* } */
+
+/* @font-face { */
+/*     font-family: Cour; */
+/*     src: url("/ddoc/font/COUR.TTF") format("truetype"); */
+/*     font-style: normal; */
+/*     font-weight: normal; */
+/* } */
+
+/* @font-face{ */
+/* 	font-family:"Courier3"; */
+/* 	src:url("/ddoc/font/Courier.ttf") format("truetype"); */
+/* 	font-style: normal; */
+/*     font-weight: normal; */
+/* } */
+
+/* /* @font-face { */ */
+/* /*     font-family: Consola2; */ */
+/* /*     src: url("/ddoc/font/consola.ttf") format("truetype"), url("/ddoc/font/consola.ttf"); */ */
+/* /*     font-style: normal; */ */
+/* /*     font-weight: normal; */ */
+/* /* } */ */
+
+/* /* */
+/* @font-face { */
+/*     font-family: MyHelvetica; */
+/*     src: local("Helvetica Neue"), */
+/*          local("HelveticaNeue-Regular"), */
+/*          url(HelveticaNeue-Regular.ttf) format('truetype'); */
+/*     font-style: normal; */
+/*     font-weight: normal */
+/* } */
+/* */ */
+
+/* /* */
+/* @font-face { */
+/*     font-family: Consola2; */
+/*     src: url("/ddoc/font/consola.ttf") format("truetype"); */
+/*     font-style: normal; */
+/*     font-weight: normal; */
+/* } */
+/* */ */
+
+/* /*Fixedsys3;*/ Consolas,monaco,monospace; */
+
+/* body { */
+/* 	font-family: verdana, ±¼¸², µ¸¿ò; */
+/* /* 	font-size: 9pt; */ */
+/* 	margin: 0; */
+/* 	padding: 0; */
+/* } */
+
+/* input, textarea { */
+/* 	font-family: verdana, ±¼¸², µ¸¿ò; */
+/* } */
+
+/* .margin10 { */
+/* 	margin: 10px; */
+/* } */
+
+
+/* .black_ground { */
+/* 	background: black; */
+/* 	/* 	background-image: url("/ddoc/img/ddoc_tile.png"); */ */
+/* } */
+
+/* .foregroud{ */
+/* 	margin: 0 auto; */
+/* 	width: 32%; */
+/* 	background: white; */
+/* 	padding-bottom: 32px; */
+/* 	border: 1px solid #AAAAAA; */
+/* 	font-family: verdana, ±¼¸², µ¸¿ò; Consolas,monaco,monospace; */
+/* 	font-size: 11pt; */
+/* } */
+
+/* .mainCont { */
+/* 	width: 100%; */
+/* 	max-width: 500px; */
+	
+/* 	/* */
+/* 	border-top: 0; */
+/* 	border-bottom: 0; */
+/* 	border-left: 1px solid #DDDDDD; */
+/* 	border-right: 1px solid #DDDDDD; */
+/* 	*/ */
+/* 	border: 1px solid #000000; */
+/* 	margin: auto; */
+/* } */
+
+/* .basicInput { */
+/* 	width: 100%; */
+/* 	border-top: 0; */
+/* 	border-bottom: 1px solid #000000; */
+/* 	border-left: 0; */
+/* 	border-right: 0; */
+/* } */
+/* /* .backgroud{ */ */
+/* /* 	width: 100%; */ */
+/* /* 	background: black; */ */
+/* /* } */ */
+
+/* /* */
+
+/* 	@media screen and (min-width:0px) { */
+/* 		#basicForm { */
+/* 			width: 100%; */
+/* 			min-width: 200px; */
+/* 			border: 1px solid #000000; */
+/* 			font-family: Fixedsys3; */
+/* 			font-size: 12pt; */
+/* 		} */
+/* 	} */
+/* 	@media screen and (min-width:801px) { */
+/* 		#basicForm { */
+/* 			width: 70%; */
+/* 			min-width: 200px; */
+/* 			border: 1px solid #000000; */
+/* 			font-family: Fixedsys3; */
+/* 			font-size: 12pt; */
+/* 		} */
+/* 	} */
+
+/* */ */
+
+/* .w100p { */
+/* 	width: 100%;	 */
+/* } */
+
+/* .w50p { */
+/* 	width: 50%;	 */
+/* } */
+
+/* .basicLine { */
+/* 	/*border: 1px solid #3F48CC;*/ */
+/* 	border: 1px solid #EEEEEE; */
+/* } */
+
+/* a { */
+/* 	text-decoration: none; */
+/* } */
+
+/* .padding10 { */
+/* 	padding: 10px; */
+/* } */

@@ -1,0 +1,167 @@
+body {
+	font-family: verdana, tahoma;
+	font-size: 10pt;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+
+.smallFont {
+	font-family: verdana, tahoma;
+	font-size: 9pt;
+}
+
+.minGap {
+	font-family: verdana, tahoma;
+	font-size : 1pt;
+	height: 4px;
+	margin: 0;
+	padding: 0;
+}
+
+input, textarea {
+	font-family: verdana, tahoma;
+}
+
+.mainPlate {
+	width: 96%;
+	max-width: 600px;
+	margin: 0 auto;
+	margin-top: 10px;
+	font-size: 10pt;
+	line-height: 24px;
+}
+
+.mainTable {
+	width: 100%;
+}
+
+.leftData {
+	width: 30%;
+}
+
+.rightData {
+	width: 70%;
+}
+
+.attImg {
+	text-align: center;	
+	/* width: 100%; */
+	max-width: 100%;
+	cursor: pointer;
+}
+
+.center {
+	text-align: center;	
+}
+
+.w100p {
+	width: 100%;	
+}
+
+.w50p {
+	width: 50%;	
+}
+
+.basicLine {
+	border-top: 1px solid #BBBBBB;
+	border-bottom: 1px solid #BBBBBB;
+}
+
+.basicpadding {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 2px;
+	padding-right: 2px;
+	margin: 0;
+}
+
+.titleFont{
+	font-size: 14pt; font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+.padding10 {
+	padding: 10px;
+}
+
+.titleImg {
+	max-width: 40%;
+}
+
+.titleSmallImg {
+	width: 60px;
+	max-width: 15%;
+}
+
+
+.pageBox {
+	border: 1px solid #AAAAAA;
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 10px;
+	width: 30px;
+	height: 30px;
+	float: left;
+	cursor: pointer;
+	
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+.pageBox a {
+	color: #000000;
+}
+
+.pageBox:HOVER b {
+	color: #0000FF;
+}
+
+.pageBox:HOVER {
+	border: 1px solid #AAAAAA;
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 10px;
+	width: 30px;
+	height: 30px;
+	float: left;
+	cursor: pointer;
+	
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+.selectedPageBox {
+	border: 1px solid #AAAAAA;
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+#bookListCombo {
+	width: 100%;
+	height: 24px;
+}
+
+/* 드래그 색상 */
+::selection {
+    background: #CCCCFF;
+    color: #0000FF;
+    text-shadow: none;
+}
+
+/* 드래그 색상 */
+::-moz-selection {
+    background: #CCCCFF;
+    color: #0000FF;
+    text-shadow: none;
+}
+
+/* 드래그 색상 */
+::-webkit-selection {
+   background: #CCCCFF;
+    color: #0000FF;
+    text-shadow: none;
+}

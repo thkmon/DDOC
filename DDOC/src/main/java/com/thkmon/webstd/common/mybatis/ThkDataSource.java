@@ -1,4 +1,4 @@
-package com.thkmon.webstd.common.database;
+package com.thkmon.webstd.common.mybatis;
 
 import java.sql.SQLException;
 
