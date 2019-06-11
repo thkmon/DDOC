@@ -23,11 +23,18 @@ function onClick_postButton() {
 	form1.submit();
 }
 </script>
+<style type="text/css">
+	input {
+		height: 20px;
+	}
+</style>
 </head>
 <body>
-	<form id="form1" name="form1" method="post" target="_persent" action="/reqsetperm">
-		<input id="pwd" name="pwd" type="password">
-	</form>
-	<input type="button" value="post" onclick="onClick_postButton()">
+	<div style="margin: 20px;">
+		<form id="form1" name="form1" method="post" target="_self" action="/reqsetperm">
+			<input id="pwd" name="pwd" type="password">
+		</form>
+		<input type="button" value="post" onclick="onClick_postButton()">
+	</div>
 </body>
 </html>
