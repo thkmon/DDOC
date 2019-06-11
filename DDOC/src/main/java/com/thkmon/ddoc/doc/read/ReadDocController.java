@@ -21,7 +21,7 @@ public class ReadDocController {
 			result = mapper.selectDoc(conn, userIdParam, docId);
 			
 			if (result == null || result.size() < 1) {
-				throw new Exception("������ �������� �ʽ��ϴ�. userIdParam [" + userIdParam + "], docId [" + docId + "]");
+				throw new Exception("문서가 존재하지 않습니다. userIdParam [" + userIdParam + "], docId [" + docId + "]");
 			}
 			
 		} catch (Exception e) {

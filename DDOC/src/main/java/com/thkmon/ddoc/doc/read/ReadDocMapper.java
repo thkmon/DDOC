@@ -7,7 +7,6 @@ import javax.servlet.http.HttpServletRequest;
 import com.thkmon.webstd.common.database.BasicMapper;
 import com.thkmon.webstd.common.prototype.BasicMapList;
 import com.thkmon.webstd.common.prototype.ObjList;
-import com.thkmon.webstd.common.prototype.StringList;
 import com.thkmon.webstd.common.util.StringUtil;
 
 public class ReadDocMapper {

@@ -21,7 +21,7 @@ public class BasicMapper {
 	private static HashMap<String, String> propFile = null;
 
 	// mysql-installer-community-5.7.16.0.msi
-	// "jdbc:mysql://�������ּ�:��Ʈ/����?userUnicode=true&characterEncoding=utf8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=true";
+	// "jdbc:mysql://~~~~~~~:9999/dbname?userUnicode=true&characterEncoding=utf8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=true";
 	private static String jdbcDriver = null;
 	private static String dbUser = null;
 	private static String dbPass = null;
@@ -56,7 +56,7 @@ public class BasicMapper {
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			// �����ͺ��̽� Ŀ�ؼ� ����
+			// 데이터베이스 커넥션 생성
 			conn = DriverManager.getConnection(jdbcDriver, dbUser, dbPass);
 			conn.setAutoCommit(false);
 			
@@ -391,56 +391,56 @@ public class BasicMapper {
 	}
 	
 //	public String convertFileToString(File file) {
-//		BufferedInputStream bis = null;// ������ �������� �б� ������
-//		 BufferedOutputStream bos= null;//���������� ������ �����. ������ ������� �����ϱ� ���ؼ� ���������� ��. �о�� ������ ������ ������� ��.
+//	BufferedInputStream bis = null;// 파일을 서버에서 읽기 시작함
+//	 BufferedOutputStream bos= null;//리스폰스가 접속한 사람임. 접속한 사람에게 응답하기 위해서 리스폰스를 씀. 읽어온 파일을 접속한 사람에게 줌.
 //
-//		StringBuffer resBuffer = new StringBuffer();
-//		
-//		try {
-//			ArrayList<Byte> aaaa = new ArrayList<>();
-//			bis = new BufferedInputStream(new FileInputStream(file));
-//			bos = new BufferedOutputStream(new OutputStream() {
-//				
-//				@Override
-//				public void write(int b) throws IOException {
-//					// TODO Auto-generated method stub
-//					
-//				}
-//			});
+//	StringBuffer resBuffer = new StringBuffer();
+//	
+//	try {
+//		ArrayList<Byte> aaaa = new ArrayList<>();
+//		bis = new BufferedInputStream(new FileInputStream(file));
+//		bos = new BufferedOutputStream(new OutputStream() {
 //			
-//			int i = 0;
-//			byte[] buffer = new byte[1024];// �ѹ� ���������� 1024�� �д´�.
-//			while ((i = bis.read(buffer, 0, 1024)) != -1) {
-//				// -1 EOF
-//				for (int k=0; k<i; k++) {
-//					resBuffer.append(buffer[k]);
-//				}
-//				 bos.write(buffer, 0, i);// i�� ���� ����Ʈ ��
-//				 
-//				 for (int k=0; k<i; k++) {
-//					 aaaa.add(buffer[k]);
-//				}
+//			@Override
+//			public void write(int b) throws IOException {
+//				// TODO Auto-generated method stub
+//				
 //			}
+//		});
+//		
+//		int i = 0;
+//		byte[] buffer = new byte[1024];// 한번 읽을때마다 1024씩 읽는다.
+//		while ((i = bis.read(buffer, 0, 1024)) != -1) {
+//			// -1 EOF
+//			for (int k=0; k<i; k++) {
+//				resBuffer.append(buffer[k]);
+//			}
+//			 bos.write(buffer, 0, i);// i가 읽은 바이트 수
+//			 
+//			 for (int k=0; k<i; k++) {
+//				 aaaa.add(buffer[k]);
+//			}
+//		}
 //
+//		if (bis != null) {
+//			bis.close();
+//		}
+//
+//	} catch (Exception e) {
+//
+//	} finally {
+//		try {
 //			if (bis != null) {
 //				bis.close();
 //			}
 //
 //		} catch (Exception e) {
-//
-//		} finally {
-//			try {
-//				if (bis != null) {
-//					bis.close();
-//				}
-//
-//			} catch (Exception e) {
-//			}
 //		}
-//		
-//		return resBuffer.toString();
-//
 //	}
+//	
+//	return resBuffer.toString();
+//
+//}
 	
 	
 }
